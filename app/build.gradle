@@ -36,5 +36,5 @@ dependencies {
     compile librarys.design
     testCompile librarys.junit
 
-//    compile librarys.TreeView
+    compile librarys.TreeView
 }

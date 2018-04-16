@@ -21,7 +21,7 @@ ext {
             junit              : 'junit:junit:4.12',
 
             // 自定义树形控件开源库
-//            TreeView           : 'com.github.zhk123:TreeView:v4.0'
+            TreeView           : 'com.github.zhk123:TreeView:v2.0'
     ]
 
 }

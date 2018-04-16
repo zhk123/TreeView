@@ -1,0 +1,27 @@
+ext {
+
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.2",
+            minSdkVersion    : 19,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    dependVersion = [
+            support: "26.+"
+    ]
+
+    dependencies = [
+            // Android
+            supportV4          : "com.android.support:support-v4:${dependVersion.support}",
+            appcompatV7        : "com.android.support:appcompat-v7:${dependVersion.support}",
+            design             : "com.android.support:design:${dependVersion.support}",
+            junit              : 'junit:junit:4.12',
+
+            // 自定义树形控件开源库
+            TreeView           : 'com.github.zhk123:TreeView:v4.0'
+    ]
+
+}
